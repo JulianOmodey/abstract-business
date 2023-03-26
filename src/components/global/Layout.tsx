@@ -1,12 +1,13 @@
-import React from 'react'
-import { FCWithChildren } from '../../types'
+import React, { PropsWithChildren } from 'react'
 import { Header } from './Header'
 import { Footer } from './Footer'
+import { GlobalStyle } from './GlobalStyles'
 
-export const Layout: FCWithChildren = ({ children }) => {
+export const Layout: React.FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
       <Header />
+      <GlobalStyle />
       {children}
       <Footer />
     </>

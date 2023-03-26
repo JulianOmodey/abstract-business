@@ -7,8 +7,7 @@ const theme: DefaultTheme = {
   },
   colors: {
     primary: '#fff',
-    secondary: '#0c2038',
-    tertiary: '#e3e4e4',
+    secondary: '#2d79b8',
     black: '#000'
   },
   screenSizes: {

@@ -8,3 +8,5 @@ export const Header = styled.header`
   top: 0;
   z-index: 10000;
 `
+
+export const Logo = styled.img``
