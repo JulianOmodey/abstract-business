@@ -9,7 +9,7 @@
 
 ## 🚀 Quick start
 
-**First install dependencies, run: ```npm install```**
+**First install dependencies, run: `npm install`**
 
 1.  **Create a Gatsby site.**
 
