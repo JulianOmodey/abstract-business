@@ -1,5 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
+  html{
+    background: #000;
+  }
   html, body{
     margin: 0;
     height: 100%;

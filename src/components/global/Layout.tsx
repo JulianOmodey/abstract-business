@@ -6,8 +6,8 @@ import { GlobalStyle } from './GlobalStyles'
 export const Layout: React.FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
-      <Header />
       <GlobalStyle />
+      <Header />
       {children}
       <Footer />
     </>

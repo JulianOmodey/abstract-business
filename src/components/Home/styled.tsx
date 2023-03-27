@@ -6,4 +6,5 @@ export const Container = styled.main`
   height: 100vh;
   text-align: center;
   align-items: center;
+  background: white;
 `
